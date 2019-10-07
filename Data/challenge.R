@@ -81,8 +81,9 @@ BOM_combined %>%
   summarise(mean_solar = mean(Solar_exposure, na.rm = TRUE)) %>%  
   arrange(desc(lon)) 
 
-
-
+library(tidyverse)
+read_csv("gapminder.csv")
+gapminder<-read_csv("data/gapminder.csv")
 
 
 
