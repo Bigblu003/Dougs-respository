@@ -78,10 +78,14 @@ BOM_combined %>%
   mutate(Solar_exposure = as.numeric(Solar_exposure)) %>%
   group_by(Station_number, lon) %>% # 
 <<<<<<< HEAD
+<<<<<<< HEAD
   summarise(mean_solar = mean(Solar_exposure, na.rm = TRUE)) %>%   
 =======
   summarise(mean_solar = mean(Solar_exposure, na.rm = TRUE)) %>%  #  
 >>>>>>> d3a6fab28ba7528968efe2bc6130f3d2d5de0054
+=======
+  summarise(mean_solar = mean(Solar_exposure, na.rm = TRUE)) %>%   
+>>>>>>> e85657c57e15fbc834f38b5d4b699354d8044bc5
   arrange(desc(lon)) # 
 
 
