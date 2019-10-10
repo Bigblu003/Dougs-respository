@@ -51,28 +51,3 @@ BOM_combined <- left_join(BOM_stations_tidy, BOM_data_temps2)
 
 # Write BOM combined to a csv
 write_csv(BOM_combined,"data/BOM_combined.csv")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
