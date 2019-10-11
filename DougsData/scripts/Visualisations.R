@@ -26,3 +26,15 @@ BOM_combined %>%
   group_by(state) %>%
   summarise(meantempdiff = mean(Temp_diff)) %>%
   arrange(meantempdiff)
+
+#Visualising BOM data
+
+ggplot(BOM_combined,aes(x = Year, y = t_min, colour = Month)) +
+  geom_line() +
+  facet_wrap(~ state)
+a_countries
+library(tidyverse)
+ggplot(data=a_countries,aes(x=year,y=lifeExp,color=continent))+
+  geom_line()+
+  facet_wrap(~country)
+
