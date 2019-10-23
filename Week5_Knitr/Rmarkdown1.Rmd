@@ -25,7 +25,17 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = FALSEinstall` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
+install_packages("remotes")
 
+install_github("noamross/redoc")
+install.packages(htmltools")
+install_github
+install(tidyverse)
+install.packages(redoc)
+install.packages(github)
+install_packages("knitr")
+library(tidyverse")
+read_csv("Data/gamma1.csv)
 
